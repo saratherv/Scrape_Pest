@@ -13,4 +13,5 @@
 - BeautifulSoup4 module to scrape the data
 - xlsxwriter module to create a excelsheet
 - urllib to download image and save to excel
+- Semantic UI, HTML5 to develop the frontend of website
 
