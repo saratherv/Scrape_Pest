@@ -1,3 +1,4 @@
 flask
 requests
 xlsxwriter
+beautifulsoup4 4.7.1

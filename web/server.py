@@ -13,7 +13,7 @@ class Render_page(Resource):
     def get(self):
         print('scraping data for website please wait..........')
         main()
-        df = pd.read_excel('./images.xlsx')
+        df = pd.read_excel('./scrape_data.xlsx')
         # print(df)
         out = df.to_json(orient='index')
         data = json.loads(out)

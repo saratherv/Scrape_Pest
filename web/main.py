@@ -10,7 +10,7 @@ from os import path
 
 def main():
     # Create an new Excel file and add a worksheet.
-    workbook = xlsxwriter.Workbook('images.xlsx')
+    workbook = xlsxwriter.Workbook('scrape_data.xlsx')
     worksheet = workbook.add_worksheet()  
     raw_html = simple_get('http://www.agriculture.gov.au/pests-diseases-weeds/plant#identify-pests-diseases')
     html = BeautifulSoup(raw_html, 'html.parser')
