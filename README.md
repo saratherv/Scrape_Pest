@@ -1,4 +1,4 @@
-# How to run applicsation
+# How to run application
 - clone the repository
 - cd Scrape_pest/web
 - pip install requirements.txt
